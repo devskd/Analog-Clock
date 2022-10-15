@@ -1,0 +1,59 @@
+body {
+    font-family: "Sofia", sans-serif;
+  }
+#clockContainer{
+    position: relative;
+    margin: auto;
+    /* border: 2px solid black; */
+    height: 40vw;
+    width: 40vw;
+    background:url(clock.png) no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: rgb(66, 38, 38);
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.6%;
+    height: 20%;
+    top: 30%;
+    left: 49%;
+    opacity: 1;
+    
+    
+    
+}
+#minute{
+    width: 1.5%;
+    height: 32%;
+    top: 18%;
+    left: 49%;
+    opacity: 0.8;
+    
+}
+#second{
+    width: 1.5%;
+    height: 40%;
+    top: 10%;
+    left: 49%;
+    opacity: 0.6;
+    
+}
+#brand{
+   /* border: 1px solid red; */
+   width: 36%;
+   height: 9%;
+   top: 69%;
+   left: 33%;
+   position: relative;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
